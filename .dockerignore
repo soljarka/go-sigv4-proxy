@@ -1,0 +1,7 @@
+.env
+.env-template
+docker-compose.yml
+Dockerfile
+go-sigv4-proxy
+.git
+.gitignore

@@ -1,0 +1,14 @@
+version: '3'
+services:
+  proxy:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - GOSIGV4PROXY_PORT
+      - GOSIGV4PROXY_SERVICE
+      - GOSIGV4PROXY_ENDPOINT
+      - GOSIGV4PROXY_REGION
+      - AWS_ACCESS_KEY_ID
+      - AWS_SECRET_ACCESS_KEY
+      - AWS_SESSION_TOKEN
